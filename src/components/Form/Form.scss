@@ -1,0 +1,41 @@
+@import 'styles/shared';
+
+.form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px double map-get($colors, 'accent');
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.input {
+  width: 200px;
+  height: 25px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+
+  width: 120px;
+
+  padding: 5px 15px;
+  border: 1px solid map-get($colors, 'black');
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: map-get($colors, 'accent');
+  color: white;
+}

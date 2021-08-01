@@ -1,0 +1,66 @@
+@import 'styles/shared';
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: map-get($colors, 'background');
+
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+}
+textarea {
+  resize: none;
+}
+img {
+  max-width: 100%;
+}
+svg {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  padding-left: 10px;
+  padding-bottom: 2px;
+  caret-color: #e84a5f;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: inherit;
+  outline: none;
+}
+input::placeholder {
+  padding-left: 5px;
+  color: #e84a5f;
+  font-size: 0.8em;
+  font-style: italic;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  margin-right: 4px;
+}
+.name {
+  font-weight: 700;
+  margin-right: 12px;
+}
+.nameUser {
+  color: #e84a5f;
+}
+.button {
+  display: flex;
+  justify-content: center;
+
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #e84a5f;
+  color: white;
+}

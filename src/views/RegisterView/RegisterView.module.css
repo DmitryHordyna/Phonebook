@@ -1,0 +1,45 @@
+.container {
+  text-align: center;
+}
+.title {
+  margin: 40px 0;
+  text-decoration: underline;
+}
+.form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px double #e84a5f;
+}
+.label {
+  width: 250px;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.button {
+  width: 100px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.button:hover,
+.button:focus {
+  background-color: #e84a5f;
+  color: white;
+}
+
+.item {
+  margin-top: 10px;
+}
+.span {
+  color: #e84a5f;
+}

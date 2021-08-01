@@ -1,0 +1,8 @@
+.message {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0;
+
+  text-decoration: underline 2px #e84a5f;
+}

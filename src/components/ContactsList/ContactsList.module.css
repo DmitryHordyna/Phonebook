@@ -1,0 +1,39 @@
+.contacts_list {
+  width: 320px;
+}
+
+.contacts_item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contacts_item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.contacts_item_title {
+  cursor: pointer;
+}
+
+.contacts_item_button {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+
+  cursor: pointer;
+}
+.contacts_item_button:hover,
+.contacts_item_button:focus {
+  background-color: #e84a5f;
+  color: white;
+}
+.span {
+  font-size: 15px;
+  margin-right: 5px;
+  color: #e84a5f;
+}

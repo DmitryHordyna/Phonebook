@@ -1,0 +1,13 @@
+.label_filter {
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+}
+.input_filter {
+  width: 150px;
+  height: 25px;
+  margin-left: 20px;
+
+  cursor: pointer;
+}
